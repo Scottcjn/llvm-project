@@ -148,7 +148,7 @@ Classes and Structures:
    clang-repl>
    // Note: This '\' can be used for continuation of the statements in the next line
 
-Lamdas:
+Lambdas:
 =======
 
 .. code-block:: text
