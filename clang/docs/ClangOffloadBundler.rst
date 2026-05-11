@@ -302,7 +302,7 @@ Compatibility Rules for Bundle Entry ID
   A code object, specified using its Bundle Entry ID, can be loaded and
   executed on a target processor, if:
 
-  * Their offload kinds are the same or comptible.
+  * Their offload kinds are the same or compatible.
   * Their target triples are compatible.
   * Their Target IDs are compatible as defined in :ref:`compatibility-target-id`.
 
