@@ -403,7 +403,7 @@ We augment the ``clang`` driver with the following flags:
       forwarding header,
       `rocThrust <https://rocm.docs.amd.com/projects/rocThrust/en/latest/>`_ and
       `rocPrim <https://rocm.docs.amd.com/projects/rocPRIM/en/latest/>`_ in
-      their canonical locations, which can be overriden via flags found below;
+      their canonical locations, which can be overridden via flags found below;
       if all are found, the forwarding header gets implicitly included,
       otherwise an error listing the missing component is generated;
     - the ``LangOpts.HIPStdPar`` member is set.
@@ -604,7 +604,7 @@ The minimum Linux kernel version for running in HMM mode is 6.4.
 
 The forwarding header is packaged by
 `ROCm <https://rocm.docs.amd.com/en/latest/>`_, and is obtainable by installing
-the `hipstdpar` packege. The list algorithms that can be offloaded is available
+the `hipstdpar` package. The list algorithms that can be offloaded is available
 `here <https://github.com/ROCm/roc-stdpar#algorithm-support-status>`_. More
 details are available via the dedicated blog
 `<https://rocm.blogs.amd.com/software-tools-optimization/hipstdpar/README.html>`_.
